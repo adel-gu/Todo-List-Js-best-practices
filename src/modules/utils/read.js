@@ -5,7 +5,6 @@ export default class Read {
     if (localStorage.getItem('Tasks')) {
       tasks = JSON.parse(localStorage.getItem('Tasks'));
     }
-
     return tasks;
   };
 
